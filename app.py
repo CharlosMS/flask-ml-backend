@@ -10,7 +10,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 app = Flask(__name__)
 
 # === Load Model ===
-MODEL_PATH = 'resnet50_clahe_model.h5'
+MODEL_PATH = 'resnet50_clahe_model (3).h5'
 model = load_model(MODEL_PATH)
 
 # === Class Names (HARUS sesuai urutan label saat training) ===
