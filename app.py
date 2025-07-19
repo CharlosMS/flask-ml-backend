@@ -9,7 +9,7 @@ from tensorflow.keras.applications.resnet50 import preprocess_input
 app = Flask(__name__)
 
 # === Load Model ===
-MODEL_PATH = 'resnet50_clahe_model.h5'
+MODEL_PATH = 'resnet50_clahe_augmented_balanced_model.h5'
 model = load_model(MODEL_PATH)
 
 # === Class Names (urutan sesuai training) ===
