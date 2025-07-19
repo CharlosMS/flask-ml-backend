@@ -13,9 +13,9 @@ model = load_model("resnet50_clahe_augmented_balanced_model.h5")
 # === 2. Daftar Kelas (Sesuai Urutan Training) ===
 class_names = [
     "Dermatitis perioral", "Eksim", "Karsinoma", "Pustula", "Tinea facialis",
-    "acne fulminans", "acne nodules", "blackhead", "flek hitam", "folikulitis",
-    "fungal acne", "herpes", "kutil filiform", "melanoma", "milia",
-    "panu", "papula", "psoriasis", "rosacea", "whitehead"
+    "Acne fulminans", "Acne nodules", "Blackhead", "Flek hitam", "Folikulitis",
+    "Fungal acne", "Herpes", "Kutil filiform", "Melanoma", "Milia",
+    "Normal", "Panu", "Papula", "Psoriasis", "Rosacea", "Whitehead"
 ]
 
 # === 3. Fungsi Preprocessing (contoh: resize + CLAHE) ===
