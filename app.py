@@ -14,10 +14,10 @@ model = load_model(MODEL_PATH)
 
 # === Class Names (tanpa kelas "Eksim") ===
 class_names = [
-    "Dermatitis perioral", "Karsinoma", "Pustula", "Tinea facialis", "acne fulminans",
-    "acne nodules", "blackhead", "flek hitam", "folikulitis", "fungal acne",
-    "herpes", "kutil filiform", "melanoma", "milia", "tidak ditemukan penyakit",
-    "panu", "papula", "psoriasis", "rosacea", "whitehead"
+    "Dermatitis perioral", "Karsinoma", "Pustula", "Tinea facialis", "Acne Fulminans",
+    "Acne Nodules", "Blackhead", "Flek hitam", "Folikulitis", "Fungal Acne",
+    "Herpes", "Kutil Filiform", "Melanoma", "Milia", "Tidak Ditemukan Penyakit/Kulit Normal",
+    "Panu", "Papula", "Psoriasis", "Rosacea", "Whitehead"
 ]
 
 IMG_SIZE = (224, 224)
