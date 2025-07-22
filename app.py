@@ -16,7 +16,7 @@ model = load_model(MODEL_PATH)
 class_names = [
     "Dermatitis perioral", "Karsinoma", "Pustula", "Tinea facialis", "acne fulminans",
     "acne nodules", "blackhead", "flek hitam", "folikulitis", "fungal acne",
-    "herpes", "kutil filiform", "melanoma", "milia", "normal",
+    "herpes", "kutil filiform", "melanoma", "milia", "tidak ditemukan penyakit",
     "panu", "papula", "psoriasis", "rosacea", "whitehead"
 ]
 
